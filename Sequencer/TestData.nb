@@ -1,0 +1,111 @@
+(* Content-type: application/vnd.wolfram.mathematica *)
+
+(*** Wolfram Notebook File ***)
+(* http://www.wolfram.com/nb *)
+
+(* CreatedBy='Mathematica 8.0' *)
+
+(*CacheID: 234*)
+(* Internal cache information:
+NotebookFileLineBreakTest
+NotebookFileLineBreakTest
+NotebookDataPosition[       157,          7]
+NotebookDataLength[      3698,        101]
+NotebookOptionsPosition[      3265,         80]
+NotebookOutlinePosition[      3618,         96]
+CellTagsIndexPosition[      3575,         93]
+WindowFrame->Normal*)
+
+(* Beginning of Notebook Content *)
+Notebook[{
+
+Cell[CellGroupData[{
+Cell[BoxData[
+ RowBox[{
+  RowBox[{
+   RowBox[{
+    RowBox[{"StringTake", "[", 
+     RowBox[{"#", ",", 
+      RowBox[{"{", 
+       RowBox[{"1", ",", "2"}], "}"}]}], "]"}], "<>", "\"\< \>\"", "<>", 
+    RowBox[{"StringTake", "[", 
+     RowBox[{"#", ",", 
+      RowBox[{"{", 
+       RowBox[{"3", ",", "4"}], "}"}]}], "]"}], "<>", "\"\< \>\""}], "&"}], "/@", 
+  RowBox[{
+  "StringSplit", "[", 
+   "\"\<8000 0000 0001 5CF2 D400 0001 5FE8 A480 0000 4000 1100 0000 4000 1100 \
+0000 4000 1100 0000 4000 1100 0000 4000 1100 0000 4000 1100 0000 4000 1100 \
+0000 4000 1100 0000 4000 1100 0000 4000 1100 0000 5FE0 0A00 0000 4000 1200 \
+0000 6000 1100 0000 \>\"", "]"}]}]], "Input",
+ CellChangeTimes->{{3.558788183570963*^9, 3.558788225246095*^9}, {
+  3.5587882556068316`*^9, 3.5587882839421797`*^9}, {3.558788331229684*^9, 
+  3.5587884131649723`*^9}}],
+
+Cell[BoxData[
+ RowBox[{"{", 
+  RowBox[{"\<\"80 00 \"\>", ",", "\<\"00 00 \"\>", ",", "\<\"00 01 \"\>", 
+   ",", "\<\"5C F2 \"\>", ",", "\<\"D4 00 \"\>", ",", "\<\"00 01 \"\>", 
+   ",", "\<\"5F E8 \"\>", ",", "\<\"A4 80 \"\>", ",", "\<\"00 00 \"\>", 
+   ",", "\<\"40 00 \"\>", ",", "\<\"11 00 \"\>", ",", "\<\"00 00 \"\>", 
+   ",", "\<\"40 00 \"\>", ",", "\<\"11 00 \"\>", ",", "\<\"00 00 \"\>", 
+   ",", "\<\"40 00 \"\>", ",", "\<\"11 00 \"\>", ",", "\<\"00 00 \"\>", 
+   ",", "\<\"40 00 \"\>", ",", "\<\"11 00 \"\>", ",", "\<\"00 00 \"\>", 
+   ",", "\<\"40 00 \"\>", ",", "\<\"11 00 \"\>", ",", "\<\"00 00 \"\>", 
+   ",", "\<\"40 00 \"\>", ",", "\<\"11 00 \"\>", ",", "\<\"00 00 \"\>", 
+   ",", "\<\"40 00 \"\>", ",", "\<\"11 00 \"\>", ",", "\<\"00 00 \"\>", 
+   ",", "\<\"40 00 \"\>", ",", "\<\"11 00 \"\>", ",", "\<\"00 00 \"\>", 
+   ",", "\<\"40 00 \"\>", ",", "\<\"11 00 \"\>", ",", "\<\"00 00 \"\>", 
+   ",", "\<\"40 00 \"\>", ",", "\<\"11 00 \"\>", ",", "\<\"00 00 \"\>", 
+   ",", "\<\"5F E0 \"\>", ",", "\<\"0A 00 \"\>", ",", "\<\"00 00 \"\>", 
+   ",", "\<\"40 00 \"\>", ",", "\<\"12 00 \"\>", ",", "\<\"00 00 \"\>", 
+   ",", "\<\"60 00 \"\>", ",", "\<\"11 00 \"\>", ",", "\<\"00 00 \"\>"}], 
+  "}"}]], "Output",
+ CellChangeTimes->{{3.558788363232418*^9, 3.5587884145990543`*^9}}]
+}, Open  ]],
+
+Cell[CellGroupData[{
+
+Cell[BoxData[
+ RowBox[{"StringJoin", "@@", "%"}]], "Input",
+ CellChangeTimes->{3.5587884061635714`*^9}],
+
+Cell[BoxData["\<\"80 00 00 00 00 01 5C F2 D4 00 00 01 5F E8 A4 80 00 00 40 00 \
+11 00 00 00 40 00 11 00 00 00 40 00 11 00 00 00 40 00 11 00 00 00 40 00 11 00 \
+00 00 40 00 11 00 00 00 40 00 11 00 00 00 40 00 11 00 00 00 40 00 11 00 00 00 \
+40 00 11 00 00 00 5F E0 0A 00 00 00 40 00 12 00 00 00 60 00 11 00 00 00 \
+\"\>"], "Output",
+ CellChangeTimes->{{3.5587884066185975`*^9, 3.5587884171482*^9}}]
+}, Open  ]]
+},
+WindowSize->{707, 817},
+WindowMargins->{{0, Automatic}, {Automatic, 0}},
+FrontEndVersion->"8.0 for Microsoft Windows (32-bit) (2011\:5e743\:670815\
+\:65e5)",
+StyleDefinitions->"Default.nb"
+]
+(* End of Notebook Content *)
+
+(* Internal cache information *)
+(*CellTagsOutline
+CellTagsIndex->{}
+*)
+(*CellTagsIndex
+CellTagsIndex->{}
+*)
+(*NotebookFileOutline
+Notebook[{
+Cell[CellGroupData[{
+Cell[579, 22, 839, 20, 132, "Input"],
+Cell[1421, 44, 1288, 19, 107, "Output"]
+}, Open  ]],
+Cell[CellGroupData[{
+Cell[2746, 68, 103, 2, 31, "Input"],
+Cell[2852, 72, 397, 5, 88, "Output"]
+}, Open  ]]
+}
+]
+*)
+
+(* End of internal cache information *)
+
